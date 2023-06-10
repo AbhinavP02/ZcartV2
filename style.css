@@ -1,0 +1,224 @@
+*{
+			padding: 0;
+			margin: 0; 
+		}
+		body{
+			background-color: #e9f6ff;
+			overflow-x: hidden;
+			
+		}
+		nav{
+			background-color: #3a3d42;
+			height: 50px;
+		}
+		nav .logo{
+			margin-left: 100px;
+			margin-top: 3.5px;
+		}
+		nav .navlinks{
+			float: right;
+			margin-top: 30px;
+		}
+		nav .navlinks a{
+			text-decoration: none;
+			color: #a5a9b0;
+			transition: 0.4s;
+		}
+		nav .navlinks a:hover{
+			color: white;
+			transition: 0.4s;
+		}
+		.welcome{
+			margin-top: -40px;
+			margin-left: 200px;
+			font-family: Arial;
+
+			color: white;
+			font-size: 20px;
+
+		}
+		.navlinks{
+			font-family: arial;
+		}
+		.ls{
+			margin-right: 100px;
+			margin-top: 600px;
+		}
+
+
+
+		.banner img{
+			    margin-top: 0px;
+				width: 1500px;
+				height: 353px;
+                width: 100%;
+               }
+
+        /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  margin-top: 17px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#products{
+	display: flex;
+	margin-left: 30px;
+}
+.product1 img{
+	width: 320px;
+	height: 280px;
+	margin: 50px;
+	padding: 10px;
+}
+.product2 img{
+	width: 320px;
+	height: 280px;
+	margin: 50px;
+	padding: 10px;
+}
+.product3 img{
+	width: 320px;
+	height: 280px;
+	margin: 50px;
+	padding: 10px;
+}
+#productnames{
+	display: flex;
+}
+.name1{
+	margin-top: 0px;
+	margin-left: 90px;
+	width: 320px;
+	height: 80px;
+	background-color: #6c8eb1;
+	font-size: 22px;
+	font-family: arial;
+	color: white;
+}
+.name2{
+	margin-top: 0px;
+	margin-left: 120px;
+	width: 320px;
+	height: 80px;
+	background-color: #6c8eb1;
+	font-size: 22px;
+	font-family: arial;
+	color: white;
+}
+.name3{
+	margin-top: 0px;
+	margin-left: 120px;
+	width: 320px;
+	height: 130px;
+    background-color: #6c8eb1;
+    font-size: 22px;
+    font-family: arial;
+    color: white;
+
+}	
+footer{
+	background-color: #3a3d42;
+	padding: 50px;
+	color: white;
+}
+footer h2{
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+	text-align: left;
+	margin-left: -10px;
+}
+.footer_container{
+	display: flex;
+}
+.footer_content{
+	padding: 50px;
+	float: left;
+}
+.footer_content a{
+	text-decoration: none;
+    color: #a5a9b0;
+	transition: 0.4s;
+	padding: 5px;
+}
+.footer_content a:hover{
+	color: white;
+	transition: 0.4s;
+}
+.footer_social{
+	float: right;
+	padding: 50px;
+}
+.footer_social a img{
+	transition: 0.4s;
+	padding: 5px;
+}
+.footer_social a img:hover{
+	transform: scale(1.1);
+	transition: 0.4s;
+}
